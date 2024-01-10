@@ -1,0 +1,20 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    padding: 8px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  

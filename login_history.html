@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login History</title>
+  <link rel="stylesheet" href="styles-login-history.css">
+  <!-- Include any other necessary stylesheets or libraries -->
+
+  <!-- Include jQuery or other necessary scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="login-history.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Your Brand</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="dashboard.html">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login_history.html">Login History</a>
+              </li>
+              <li class="nav-item">
+                <button id="signoutBtn" class="btn btn-danger nav-link">Signout</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+  <div class="container">
+    <h1>Login History</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Login Date</th>
+        </tr>
+      </thead>
+      <tbody id="loginHistoryTableBody">
+        <!-- Login history data will be populated here -->
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

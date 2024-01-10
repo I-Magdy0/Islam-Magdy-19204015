@@ -1,0 +1,21 @@
+.h1first{
+    color:orange;
+}
+.text1{
+    text-align: center;
+}
+.text1.img{
+    width: 300px;
+}
+.h3text{
+    color: blue;
+}
+.h3add{
+    color: blue;
+}
+.h3user{
+    color: blue;
+}
+.h3depart{
+    color: blue;
+}
